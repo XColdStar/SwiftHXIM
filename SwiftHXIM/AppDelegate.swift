@@ -21,7 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                        if error == nil {
                            print("初始化成功")
                        }
-                       error = EMClient.shared()?.login(withUsername: "123", password: "1")
+        
+                      DemoCallManager.shared()
+                      DemoConfManager.shared()
+                       error = EMClient.shared()?.login(withUsername: "321", password: "1")
                        if error == nil {
                            print("登录成功")
                        } else {
@@ -29,8 +32,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                        }
                 
         window = UIWindow(frame: UIScreen.main.bounds)
-        let chartVC = EMChatViewController.init(conversationId: "321", type: EMConversationTypeChat, createIfNotExist: true)
-        window?.rootViewController = UINavigationController(rootViewController: chartVC)
+//        let chartVC = EMChatViewController.init(conversationId: "321", type: EMConversationTypeChat, createIfNotExist: true)
+//        window?.rootViewController = UINavigationController(rootViewController: chartVC)
+        window?.rootViewController = HXRootVCManager.defaultRootVC()
         window?.makeKeyAndVisible()
         return true
     }

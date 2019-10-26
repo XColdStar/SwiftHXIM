@@ -10,3 +10,7 @@
 #import <Hyphenate/Hyphenate.h>
 #import "EaseUI.h"
 #import "EMChatViewController.h"
+#import "EMContactsViewController.h"
+#import "EMConversationsViewController.h"
+#import "DemoCallManager.h"  // 1v1实时通话功能的头文件
+#import "DemoConfManager.h"  // 多人实时通话功能的头文件

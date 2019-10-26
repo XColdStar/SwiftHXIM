@@ -17,8 +17,12 @@
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import "SwiftHXIM-Swift.h"
+
 #import <Hyphenate/Hyphenate.h>
 #import "EMHeaders.h"
 #import "Masonry.h"
+#import "EMChatViewController.h"
+
 
 #endif

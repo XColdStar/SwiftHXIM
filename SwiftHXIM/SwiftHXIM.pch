@@ -1,0 +1,24 @@
+//
+//  SwiftHXIM.pch
+//  SwiftHXIM
+//
+//  Created by hanxing on 2019/10/25.
+//  Copyright © 2019 hanxing. All rights reserved.
+//
+
+#ifndef SwiftHXIM_pch
+#define SwiftHXIM_pch
+
+
+#endif /* SwiftHXIM_pch */
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <Hyphenate/Hyphenate.h>
+#import "EMHeaders.h"
+#import "Masonry.h"
+
+#endif
